@@ -1,3 +1,5 @@
+![App Screenshot](assets/image.png)
+
 # 🤖 AI Code Reviewer
 
 A lightweight AI-powered website that provides free code reviews.  
@@ -28,17 +30,15 @@ Flask>=2.0
 python-dotenv>=0.21
 groq == 0.31.0
 
-Create & activate a virtual environment:
+# Create & activate virtual environment
 python -m venv venv
 # macOS / Linux
 source venv/bin/activate
-# Windows (PowerShell)
+# Windows PowerShell
 venv\Scripts\Activate.ps1
 
-Install dependencies:
-Flask>=2.0
-python-dotenv>=0.21
-groq==0.31.0
+# Install dependencies
+pip install -r requirements.txt
 
 Create a .env file in project root and add your Groq API key:
 GROQ_API_KEY=your_groq_api_key_here
